@@ -1,15 +1,24 @@
 {
+  "type": "module",
   "name": "jest-testing-env",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mark-Mulligan/jest-testing-env.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "bugs": {
+    "url": "https://github.com/Mark-Mulligan/jest-testing-env/issues"
+  },
+  "homepage": "https://github.com/Mark-Mulligan/jest-testing-env#readme",
+  "devDependencies": {
     "jest": "^27.2.0"
   }
 }
